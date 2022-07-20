@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>EGC - Sign up!</title>
+</head>
+<body>
+    <div id = "container">
+        <div id = "logohold">
+            <div class="logocont">
+                <img class="yup" src = "images/epic.png">
+            </div>
+        </div>
+        <div id="gradient">
+        </div>
+        <div id = "formcont">
+            <div id = "twosidecont">
+            <fieldset>
+            <legend>Let get started!</legend>
+            <form action="/submitted" method="post">
+            <div class="form">
+                <div class="lside">
+                <label for="fname">First Name:</label>
+                <input type = "text" id = "fname" name="fname" minlength= "2" required>
+                <label for="lname">Last Name:</label>
+                <input type = "text" id="lname" name="fname" minlength="2" required>
+                <label for = "dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="rside">
+                <label for = "username">Username:</label> 
+                <input type="text" id="username" name="username" minlength="4" required>
+                <label for="email">Email Address:</label>
+                <input type ="email" id="email" name="email" required>
+                <label for = "pnumber">Phone Number:</label>
+                <input type="text" id="pnumber" name="pnumber" required>
+            </div>
+        </div>
+        <div class = "line"></div>
+        <div class ="but">
+            <button type = "submit">Create Account</button>
+        </div>
+            </form>
+        </fieldset>
+            </div>
+        <p class="login">Already have an account? <a href ="/loginpage">Log in here.</a></p>
+        </div>
+    </div>
+</body>
+</html>
