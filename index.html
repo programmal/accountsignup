@@ -11,32 +11,33 @@
     <div id = "container">
         <div id = "logohold">
             <div class="logocont">
-                <img class="yup" src = "images/epic.png">
+                <img class="epiclogo" src = "images/epic.png">
             </div>
         </div>
         <div id="gradient">
         </div>
         <div id = "formcont">
+            <p class = "desc">Welcome to Epic Games! Epic is a leading interactive entertainment company and provider of 3D engine technology (Fortnite), Fortnite, Vbucks, Fortnite accessories, Fortnite emotes, Fortnite halloween costumes, Fortnite: The Movie, and Fortnite 2: The Dark Nite...</p>
             <div id = "twosidecont">
             <fieldset>
             <legend>Let get started!</legend>
             <form action="/submitted" method="post">
             <div class="form">
                 <div class="lside">
-                <label for="fname">First Name:</label>
-                <input type = "text" id = "fname" name="fname" minlength= "2" required>
-                <label for="lname">Last Name:</label>
-                <input type = "text" id="lname" name="fname" minlength="2" required>
-                <label for = "dob">Date of Birth:</label>
+                <label for="fname">First Name</label>
+                <input type = "text" id = "fname" name="fname" minlength= "2" placeholder="Ex. John" required>
+                <label for="lname">Last Name</label>
+                <input type = "text" id="lname" name="fname" minlength="2" placeholder="Ex. Doe" required>
+                <label for = "dob">Date of Birth</label>
                 <input type="date" id="dob" name="dob" required>
             </div>
             <div class="rside">
-                <label for = "username">Username:</label> 
-                <input type="text" id="username" name="username" minlength="4" required>
-                <label for="email">Email Address:</label>
-                <input type ="email" id="email" name="email" required>
-                <label for = "pnumber">Phone Number:</label>
-                <input type="text" id="pnumber" name="pnumber" required>
+                <label for = "username">Username</label> 
+                <input type="text" id="username" name="username" placeholder="Ex. DogSlapper17" minlength="4" required>
+                <label for="email">Email Address</label>
+                <input type ="email" id="email" name="email" placeholder ="Ex. abc@epicgaming.com" required>
+                <label for = "pnumber">Phone Number</label>
+                <input type="number" id="pnumber" name="pnumber" maxlength="11" placeholder="Ex. (###)-###-####" required>
             </div>
         </div>
         <div class = "line"></div>
